@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Sentaigazine</string>
+    <string name="tv_exampleName">Example Name</string>
+    <string name="tv_exampleEmail">blabla@gmail.com</string>
+    <string name="tv_AboutName">Pangondion K Naibaho</string>
+    <string name="tv_AboutEmail">dionkurniawan130@gmail.com</string>
+    <string name="tv_dummySentaiName">Dummy Sentai Name</string>
+</resources>
