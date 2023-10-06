@@ -1,9 +1,10 @@
 package com.zephyr.sentaigazine.view.activity
 
+import android.app.Activity
 import android.content.Context
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.zephyr.sentaigazine.R
 import com.zephyr.sentaigazine.databinding.ActivityAboutBinding
 

@@ -1,14 +1,19 @@
 package com.zephyr.sentaigazine.view.activity
 
+import android.app.Activity
 import android.content.Context
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.res.ResourcesCompat
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.zephyr.sentaigazine.R
 import com.zephyr.sentaigazine.databinding.ActivityMainBinding
+import com.zephyr.sentaigazine.model.DummyData.Companion.getDummySentaiData
+import com.zephyr.sentaigazine.model.Sentai
+import com.zephyr.sentaigazine.view.adapter.ListSentaiAdapter
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -26,6 +31,22 @@ class MainActivity : AppCompatActivity() {
         supportActionBar?.setBackgroundDrawable(ResourcesCompat.getDrawable(this@MainActivity.resources,
             R.color.capri, null))
 
+        setUpView()
+
+    }
+
+    private fun setUpView(){
+        binding.rvItemData.apply {
+            layoutManager = LinearLayoutManager(this@MainActivity)
+            adapter = ListSentaiAdapter(getDummySentaiData(), object: ListSentaiAdapter.ItemListener{
+                override fun onItemClicked(item: Sentai) {
+                    startActivity(
+                        DetailActivity.newIntent(this@MainActivity, item)
+                    )
+                }
+
+            })
+        }
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
