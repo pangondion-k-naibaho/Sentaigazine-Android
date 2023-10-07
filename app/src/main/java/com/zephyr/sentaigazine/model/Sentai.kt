@@ -7,7 +7,9 @@ import kotlinx.parcelize.Parcelize
 data class Sentai(
     var name: String,
     var detailStory: String,
+    var totalMember: Int,
     var productionYear: String,
     var rating: Double,
-    var sentaiPhoto: Int
+    var sentaiPhoto: Int,
+    var urlMerchandise: String?= null
 ): Parcelable

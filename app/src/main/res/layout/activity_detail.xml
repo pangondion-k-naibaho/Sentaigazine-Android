@@ -6,4 +6,128 @@
     android:layout_height="match_parent"
     tools:context=".view.activity.DetailActivity">
 
+    <ImageView
+        android:id="@+id/ivSentaiDescription"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clSentaiDescription"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/ivSentaiDescription"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/btnSearchMerchandise"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/tvSentaiName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="@string/tv_dummySentaiName"/>
+
+        <ScrollView
+            android:id="@+id/svSentaiDescription"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvSentaiName"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tvSentaiProd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:text="@string/tv_YearProdTitle"/>
+
+                <TextView
+                    android:id="@+id/tvSentaiRating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toStartOf="@id/tvSentaiProd"
+                    app:layout_constraintTop_toBottomOf="@id/tvSentaiProd"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:text="@string/tv_RatingTitle"/>
+
+                <TextView
+                    android:id="@+id/tvTotalMemberSentai"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toStartOf="@id/tvSentaiProd"
+                    app:layout_constraintTop_toBottomOf="@id/tvSentaiRating"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:text="@string/tv_TotalMember"/>
+
+                <TextView
+                    android:id="@+id/tvSentaiDescriptionTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toStartOf="@id/tvSentaiProd"
+                    app:layout_constraintTop_toBottomOf="@id/tvTotalMemberSentai"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:text="@string/tv_DescriptionTitle"/>
+
+                <TextView
+                    android:id="@+id/tvSentaiDescriptionContent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toStartOf="@id/tvSentaiProd"
+                    app:layout_constraintTop_toBottomOf="@+id/tvSentaiDescriptionTitle"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginTop="10dp"
+                    android:paddingHorizontal="10dp"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:text="@string/tv_DummyStory"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/btnSearchMerchandise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="@color/chlorophyll"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:text="@string/btnTxt_FindMerchandise"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
