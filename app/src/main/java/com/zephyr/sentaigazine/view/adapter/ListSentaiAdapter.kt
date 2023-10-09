@@ -22,7 +22,7 @@ class ListSentaiAdapter(
             val binding = ItemDataLayoutBinding.bind(itemView)
             binding.apply {
                 tvSentaiName.text = item.name
-                tvRating.text = "${item.rating} / 10.0"
+                tvRating.text = String.format(itemView.context.getString(R.string.tv_ItemRating), item.rating)
                 tvYearProd.text = item.productionYear
                 tvStory.text = item.detailStory
 
