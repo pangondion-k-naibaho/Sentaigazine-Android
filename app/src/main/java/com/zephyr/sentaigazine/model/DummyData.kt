@@ -96,6 +96,51 @@ class DummyData {
                     sentaiPhoto = R.drawable.choushinseiflashman,
                     urlMerchandise = "https://www.tokopedia.com/search?st=&q=choushinsei%20flashman&srp_component_id=02.01.00.00&srp_page_id=&srp_page_title=&navsource=",
                     detailStory = "Pada tahun 1966, lima anak diculik oleh kelompok alien yang dikenal sebagai Pemburu Alien, demi Empire Mess, yang menginginkan sampel manusia dari Bumi untuk dijadikan percobaan. Mereka diselamatkan oleh ras alien Flash, masing-masing dari lima anak yang diselamatkan dibawa ke planet berbeda di tata surya Flash untuk pelatihan.\nKetika mereka akhirnya kembali ke Bumi pada tahun 1986 untuk memerangi Empire Mess, yang kini mencoba menyerang, mereka menggunakan kesempatan tersebut untuk mencari orang tua kandung mereka. Belakangan mereka mengetahui bahwa mereka hanya dapat tinggal di Bumi selama satu tahun sebelum atmosfer asing di planet mereka yang sebenarnya akan membahayakan mereka secara fisik (Fenomena Anti-Flash).\nFlashman beranggotakan sebagai berikut:\n1. Jin (Red Flash)\n2. Dai (Green Flash)\n3.Bun (Blue Flash)\n4. Sara (Yellow Flash)\n5. Lou (Pink Flash)"
+                ),
+                Sentai(
+                    name = "Hikari Sentai Maskman",
+                    rating = 7.2,
+                    productionYear = "1987",
+                    totalMember = 5,
+                    sentaiPhoto = R.drawable.hikarisentaimaskman,
+                    urlMerchandise = "https://www.tokopedia.com/search?st=&q=hikari%20sentai%20maskman&srp_component_id=02.01.00.00&srp_page_id=&srp_page_title=&navsource=",
+                    detailStory = "Semuanya dimulai dari Komandan Sugata, seorang ilmuwan dan bijak yang unggul dalam penguatan mental dan ahli dalam setiap seni bela diri. Dia menemukan keberadaan Royal Underground Empire Tube, sebuah kekuatan ganas yang ingin mendominasi tanah, yang berbasis di bawah Jepang. Pada awalnya, Tube berpusat pada pasifisme. Namun, saat Zeba naik takhta, Tube mulai berencana menaklukkan dunia. Tujuan baru Tube adalah mengubah dunia menjadi planet yang dingin dan teduh, suatu kondisi yang perlu dicapai agar warga Tube dapat hidup di permukaan. Untuk melawan mereka dan menggagalkan rencana mereka, Sugata merekrut lima orang muda, masing-masing berspesialisasi dalam gaya seni bela diri, dan mengajari mereka cara energi mistis \"Kekuatan Aura\".\nSetahun setelah Sugata merekrut dan melatih Maskmen, Tube siap menyerang. Putri Ial dari Tube, yang dikirim sebagai mata-mata di atas tanah dengan nama samaran Mio, telah jatuh cinta pada Takeru dan sekarang berharap agar mereka yang hidup di bawah dan di atas tanah dapat hidup berdampingan. Dia diculik dan dipenjarakan di dalam es karena pengkhianatannya.\nMaskman beranggotakaan sebagai berikut :\n1.Takeru (Red Mask)\n2. Kenta (Black Mask)\n3. Akira (Blue Mask)\n4. Haruka (Yellow Mask)\n5. Momoko (Pink Mask)."
+                ),
+                Sentai(
+                    name = "Chojuu Sentai Liveman",
+                    rating = 7.2,
+                    productionYear = "1988",
+                    totalMember = 5,
+                    sentaiPhoto = R.drawable.chojuusentailiveman,
+                    urlMerchandise = "https://www.tokopedia.com/search?st=&q=chojuu%20sentai%20liveman&srp_component_id=02.01.00.00&srp_page_id=&srp_page_title=&navsource=",
+                    detailStory = "Serial ini berlatar di Pulau Academia, yang merupakan lokasi sekaligus sekolah bagi para ilmuwan. Suatu hari, tiga siswa terbaik Academia, Tsukigata, Senda, dan Omura merasa bakat mereka disia-siakan di Academia dan pergi. Mereka menerima posisi di organisasi jahat Volt. Pada malam keberangkatan mereka, mantan teman sekelas mereka Yusuke Amamiya, Jou Ohara, Megumi Misaki, Takuji Yano, dan Mari Aikawa melihat mereka berangkat dengan kapal luar angkasa. Ketika ditanya kemana mereka pergi, Tsukigata menodongkan pistol ke lima orang tersebut, membunuh Takuji dan Mari.\nSebelum kematian pasangan tersebut, Takuji dan Mari bekerja bersama Yusuke, Jou, dan Megumi dalam menciptakan pakaian yang cukup kuat untuk eksplorasi ruang angkasa. Mereka telah membuat kemajuan besar pada malam mereka dibunuh. Salah satu profesor di sekolah tersebut, Profesor Hoshi, membantu mereka menyelesaikan ambisi awal mereka. Hoshi juga khawatir Volt akan mulai menyerang orang, dan dengan demikian membantu mempersiapkan diri menghadapi serangan di masa depan.\nDua tahun kemudian, Academia meluncurkan pesawat ulang-alik untuk eksplorasi ruang angkasa. Namun, sebuah kapal misterius muncul dan menjatuhkan pesawat ulang-alik tersebut; Yusuke, Jou dan Megumi termasuk di antara sedikit yang selamat. Mereka menemukan bahwa Tsukigata, Senda, dan Omura bertanggung jawab atas kehancuran pesawat ulang-alik tersebut. Hasilnya, Yusuke, Jou, dan Megumi mengambil kekuatan dari proyek aslinya, menjadi Liveman untuk bertarung melawan mantan teman sekelas mereka dan Volt.\nLiveman beranggotakan sebagai berikut:\n1. Yusuke Amamiya (Red Falcon)\n2. Jou Ohara (Yellow Lion)\n3. Megumi Misaki (Blue Dolphin)\n4. Tetsuya Ano (Black Bison)\n5. Junichi Aikawa (Green Sai)"
+                ),
+                Sentai(
+                    name = "Kousoku Sentai Turboranger",
+                    rating = 7.3,
+                    productionYear = "1989",
+                    totalMember = 5,
+                    sentaiPhoto = R.drawable.kousokusentaiturboranger,
+                    urlMerchandise = "https://www.tokopedia.com/search?st=&q=kousoku%20sentai%20turboranger&srp_component_id=02.01.00.00&srp_page_id=&srp_page_title=&navsource=",
+                    detailStory = "Dua puluh ribu tahun yang lalu, ras Peri membantu manusia dalam pertempuran melawan Suku Bōma dan menyegel mereka. Karena polusi modern dan perusakan alam oleh manusia, kekuatan sihir Peri telah melemah, memungkinkan segel dibuka dan Suku melarikan diri. Dengan bantuan Dokter Dazai, Seelon, peri terakhir, memanggil lima siswa SMA. Saat masih anak-anak, mereka dihujani \"api roh\" dari peri yang jatuh di hutan, dan sekarang dapat mendengar suara Seelon. Mengenakan pakaian bertenaga, hasil kolaborasi antara sihir Seelon dan ilmu pengetahuan Dokter Dazai, kelimanya menjadi Turboranger, menjalani hari-hari pertempuran dengan kehidupan sekolah biasa mereka, untuk mengalahkan Suku Bōma.\nTurboranger beranggotakan sebagai berikut:\n1. Riki Honoo (Red Turbo)\n2. Daichi Yamagata (Black Turbo)\n3. Youhei Hama (Blue Turbo)\n4. Shunsuke Shino (Yellow Turbo)\n5. Haruna Morikawa (Pink Turbo)."
+                ),
+                Sentai(
+                    name = "Chikyuu Sentai Fiveman",
+                    rating = 7.5,
+                    productionYear = "1990",
+                    totalMember = 5,
+                    sentaiPhoto = R.drawable.chikyuusentai_fiveman,
+                    urlMerchandise = "https://www.tokopedia.com/search?st=&q=chikyuu%20sentai%20fiveman&srp_component_id=02.01.00.00&srp_page_id=&srp_page_title=&navsource=",
+                    detailStory = "Pada tahun 1970, Dokter Hoshikawa sedang meneliti bagaimana mengubah planet Sedon menjadi dunia yang hijau dan subur, dan menguji penelitiannya dengan mencoba menanam bunga. Pada hari bunga pertama mekar, Zone Empire melancarkan serangan ke planet ini, dia dan istrinya dipisahkan dari kelima anak mereka. Arthur G6 membawa kelima anak itu kembali ke Bumi dan membesarkan mereka. 20 tahun kemudian, kelimanya kini menjadi guru di sekolah yang sama. Kerajaan Zona sekarang bersiap untuk menyerang Bumi sebagai target keseribu dan saat mereka memulai serangan, tiga kendaraan muncul dan melawan serangan tersebut. Lima prajurit turun dari kendaraan dan menghadapi Zone. Hoshikawa bersaudara telah mengembangkan teknologi Fiveman dan berlatih keras jika Zone mencoba menyerang Bumi. Kini, kelima bersaudara tersebut siap bertarung dengan musuh familiar sebagai Fiveman. Setelah mengalahkan Kekaisaran Zona, Fiveman meninggalkan Bumi untuk memulihkan orang tua mereka yang terdampar.\nFiveman terdiri atas:\n1. Gaoku Hoshikawa (FiveRed).\n2. Ken Hoshikawa (FiveBlue)\n3. Fumiya Hoshikawa (FiveBlack)\n4. Kazumi Hoshikawa (FivePink)\n5. Remi Hoshikawa (FiveYellow)."
+                ),
+                Sentai(
+                    name = "Choujin Sentai Jetman",
+                    rating = 9.3,
+                    productionYear = "1991",
+                    totalMember = 5,
+                    sentaiPhoto = R.drawable.choujinsentaijetman,
+                    urlMerchandise = "https://www.tokopedia.com/search?st=&q=choujin%20sentai%20jetman&srp_component_id=02.01.00.00&srp_page_id=&srp_page_title=&navsource=",
+                    detailStory = "Serial terbaik Super Sentai ini mengisahkan tentang sebuah badan pertahanan internasional bernama Sky Force, penjaga perdamaian di Bumi. Di dalam kapal, para ilmuwan telah mengembangkan \"Gelombang Burung\", sebuah teknologi baru yang dikembangkan yang memberikan subjek kemampuan manusia super. Eksperimen yang disebut \"J-Project\" berhasil. Aya Odagiri, direktur proyek, memilih lima pejabat elit Sky Force dari Bumi untuk menggunakan teknologi ini. Ryu Tendo salah satu perwira Sky Force berhasil terkena gelombang Birdonic, menjadikannya Jetman pertama, Red Hawk.\nNamun, Kapal Bumi tiba-tiba diserang oleh Vyram, sebuah organisasi jahat di luar dimensi yang bertekad mendominasi antardimensi. Mereka berhasil menghancurkan kapal dan tampaknya membunuh kekasih Ryu dan sesama calon anggota Rie, dalam kekacauan tersebut. Gelombang Birdonic yang tersisa yang dimaksudkan untuk empat pejabat lainnya tersebar di Bumi, malah menghantam empat warga sipil. Odagiri dan Ryu berhasil melarikan diri dan mulai mencari empat Jetman yang tersisa di Bumi, melatih mereka untuk membantu mereka menghentikan rencana Vyram untuk menaklukkan dimensi kita.\nKelima anggota Jetman adalah sebagai berikut :\n1. Ryu Tendo (Red Hawk).\n2. Gai Ikari (Black Condor).\n3. Raita Ooishi (Yellow Owl).\n4. Ako Hayasaka (Blue Swallow).\n5. Kaori Rokumeikan (White Swan)."
                 )
             )
         }
